@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <title>Womazing - интернет магазин женской одежды</title>
+    <link rel="icon" href="http://womazing.s-host.net/wp-content/uploads/2021/03/favicon.svg" sizes="32x32" />
+
+
+</head>
+
+<body>
+    <div class="loader"></div>
+    <header id="header" class="header">
+        <div class="container">
+            <div>
+                <div class="navbar" id="navbar" onscroll="scrollFunction()">
+                    <div class="navbar-logo">
+                        <img src="photos/Vector.png" alt="#" class="navbar-logo">
+                        <a class="navbar-text" href="#">Womazing</a>
+                    </div>
+                    <ul class="navbar-items">
+                        <li class="navbar-link"><a class="home-btn" href="index.html">Главная</a></li>
+                        <li class="navbar-link"><a class="navbar-linkbtn" href="shop.html">Магазин</a></li>
+                        <li class="navbar-link"><a class="navbar-linkbtn" href="about.html">о бренде</a></li>
+                        <li class="navbar-link"><a class="navbar-linkbtn" href="contacts.html">Контакты</a></li>
+                    </ul>
+                    <div class="right-side">
+                        <img src="photos/phoneIcon.png" alt="" class="phone" width="17px">
+                        <a href="tel:12345678" class="phone-number">+7 (495) 823-54-12</a>
+                        <div class="basket"><img src="photos/basket.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+    </header>
+
+    <br>
+    <main>
+        <div class="glv">
+            <div class="container">
+                <div class="text">
+                    <h1 class="title">Новые поступления<br> в этом сезоне</h1>
+                    <h6 class="subtitle">Утонченные сочетания и бархатные<br> оттенки - вот то, что вы искали в этом<br>
+                        сезоне. Время исследовать.</h6>
+                </div>
+                <div class="knopka">
+                    <a href="#sliderman"><img class="install" src="photos/insatll.png" alt=""></a>
+                    <a href="shop.html" class="button" >Открыть магазин</a>
+                </div>
+                <div class="pgs1">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+          <div class="home">
+                <div class="photos">
+                    <div class="container">
+
+                        <div class="post4">
+                            <div class="slideshow-container">
+                                <!-- Full-width images with number and caption text -->
+
+                                <div class="mySlides fade">
+                                    <img class="photo1 " class="w3-animate-fading" src="photos/photo1.png">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <img class="photo1" src="photos/slider1.2.jpg">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <img class="photo1" src="photos/slider1.3.jpg">
+                                </div>
+
+                                <!-- Next and previous buttons -->
+                                <img class="photo2" src="photos/photo2.png" alt="">
+                                <img class="photo3" src="photos/photo3.png" alt="">
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+   
+
+
+        <br>
+        <br>
+
+        <div class="sliderman" id="sliderman">
+            <div class="container">
+                <h3 class="newcol">Новая коллекция</h3>
+                <div id="slider-container" class="slider">
+                    <div class="container">
+                        <a class="prev1" id="prv" onmouseover="onnxtbtn()" onmouseout="outnxtbtn()" onclick="prev()"
+                            onmouseover="onnxtbtn()" onmouseout="outnxtbtn()">&#8592;</a>
+                        <a class="next1" id="nxt" onmouseover="bigImg()" onmouseout="normalImg()" onclick="next()"
+                            onmouseover="bigImg()" onmouseout="normalImg()">&#8594;</a>
+                    </div>
+                    <div class="slide">
+                        <div class="post">
+                            <img src="photos/Фото товара.png " alt="">
+                            <div class="post1" onmouseover="onnxtbtn(this),bigImg()"
+                                onmouseout="outnxtbtn(this) ,normalImg()"></div>
+                        </div>
+                        <div class="components">
+                            <a href="#" class="model">Футболка USA</a>
+                            <p class="price">123$</p>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="post" onmouseover="onnxtbtn(this),bigImg()"
+                            onmouseout="outnxtbtn(this) ,normalImg()">
+                            <img src="photos/Фото товара9.png " alt="">
+                            <div class="post1" onmouseover="onnxtbtn(this),bigImg()"
+                                onmouseout="outnxtbtn(this) ,normalImg()"></div>
+                        </div>
+
+                        <div class="components">
+                            <a href="#" class="model">Футболка USA</a>
+                            <p class="price">123$</p>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="post">
+                            <img src="photos/Фото товара11.png " alt="">
+                            <div class="post1" onmouseover="onnxtbtn(this),bigImg()"
+                                onmouseout="outnxtbtn(this) ,normalImg()"></div>
+                        </div>
+                        <div class="components">
+                            <a href="#" class="model">Футболка USA</a>
+                            <p class="price">123$</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="post">
+                            <img src="photos/Фото товара.png " alt="">
+                            <div class="post1" onmouseover="onnxtbtn(this),bigImg()"
+                                onmouseout="outnxtbtn(this) ,normalImg()"></div>
+                        </div>
+                        <div class="components">
+                            <a href="#" class="model">Футболка USA</a>
+                            <p class="price">123$</p>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="post">
+                            <img src="photos/Фото товара9.png " alt="">
+                            <div class="post1" onmouseover="onnxtbtn(this),bigImg()"
+                                onmouseout="outnxtbtn(this) ,normalImg()"></div>
+                        </div>
+                        <div class="components">
+                            <a href="#" class="model">Футболка USA</a>
+                            <p class="price">123$</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="post">
+                            <img src="photos/Фото товара11.png " alt="">
+                            <div class="post1" onmouseover="onnxtbtn(this),bigImg()"
+                                onmouseout="outnxtbtn(this) ,normalImg()"></div>
+                        </div>
+                        <div class="components">
+                            <a href="#" class="model">Футболка USA</a>
+                            <p class="price">123$</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="sdbtn">
+            <a href="shop.html" class="buttondt" >Открыть магазин</a>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="container">
+            <h3 class="newcol">Что для нас важно</h3>
+            <div class="impforus">
+                <div class="quality">
+                    <img src="photos/quality 1.png" alt="">
+                    <h3 class="imp">Качество</h3>
+                    <div class="imptxt">
+                        <p class="features">Наши профессионалы работают на лучшем оборудовании для пошива одежды
+                            беспрецедентного
+                            качества
+                        </p>
+                    </div>
+                </div>
+                <div class="quality">
+                    <img src="photos/Frame 16.png" alt="">
+                    <h3 class="imp">Скорость</h3>
+                    <div class="imptxt">
+                        <p class="features">Благодаря отлаженной системе в Womazing мы можем отшивать до 20-ти единиц
+                            продукции в наших
+                            собственных цехах</p>
+                    </div>
+                </div>
+                <div class="quality">
+                    <img src="photos/Frame18.png" alt="">
+                    <h3 class="imp">Ответственность</h3>
+                    <div class="imptxt">
+                        <p class="features">Мы заботимся о людях и планете. Безотходное производство и комфортные
+                            условия труда - все это
+                            Womazing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="container">
+            <h3 class="newcol">Команда мечты Womazing</h3>
+            <div class="post3">
+                <div class="slider-container">
+                    <!-- Full-width images with number and caption text -->
+
+                    <div class="mySlidesSecond">
+
+                        <img class="Slides fade-in-image" src="photos/slider2.jpg" style="width:100%;">
+
+                    </div>
+
+                    <div class="mySlidesSecond">
+
+                        <img class="Slides fade-in-image" src="photos/slider1.png" style="width:100%;">
+
+                    </div>
+
+                    <div class="mySlidesSecond">
+
+                        <img class="Slides fade-in-image" src="photos/slider3.jpg" style="width:100%;">
+
+                    </div>
+
+                    <!-- Next and previous buttons -->
+
+                    <button class="back" onclick="plusDivs(-1)">&#8592;</button>
+                    <button class="another" onclick="plusDivs(1)">&#8594;</button>
+                    
+                    <div class="pgs">
+                        <span class="dot1" id="dot1" onclick="currentSlide1(1)"></span>
+                        <span class="dot1" id="dot1" onclick="currentSlide1(2)"></span>
+                        <span class="dot1" id="dot1" onclick="currentSlide1(3)"></span>
+                    </div>
+                </div>
+                <br>
+                
+                <div class="post3post">
+                    <h3 class="imp">Для каждой</h3>
+                    <div class="fev-txt">
+                        <p class="imptxt">Каждая девушка уникальна. Однако, мы схожи в миллионе мелочей.</p>
+                        <br>
+                        <p class="imptxt"> Womazing ищет эти мелочи и создает прекрасные вещи, которые выгодно
+                            подчеркивают
+                            достоинства каждой девушки.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- The dots/circles -->
+
+
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div style="display: inline-grid;">
+                    <div class="footbar">
+
+                        <div class="navbar-logo"><img src="photos/Vector.png" alt="#" class="navbar-logo"><a
+                                class="navbar-text" href="#">Womazing</a>
+                        </div>
+                        <ul class="navbar-items">
+                            <li class="navbar-link"><a class="home-btn" href="#">Главная</a></li>
+                            <li class="navbar-link"><a class="navbar-linkbtn" href="shop.html">Магазин</a>
+                            </li>
+                            <li class="navbar-link"><a class="navbar-linkbtn" href="#">о бренде</a></li>
+                            <li class="navbar-link"><a class="navbar-linkbtn" href="#">Контакты</a></li>
+                        </ul>
+
+
+                        <div class="contacts">
+                            <a href="#" class="phone-number">+7 (495) 823-54-12</a>
+                            <a href="#" class="phone-number">hello@womazing.com</a>
+                            <div class="boss-socs">
+                                <div class="socs">
+                                    <a class="ss" href="https://www.instagram.com/" target="_blank"><img
+                                            src="photos/instagram (1) 1.png" alt=""></a>
+                                    <a class="ss" href="https://www.facebook.com/" target="_blank"> <img
+                                            src="photos/facebook (1) 1.png" alt=""></a>
+                                    <a class="ss" href="https://twitter.com/" target="_blank"><img
+                                            src="photos/twitter (1) 1.png" alt=""></a>
+                                </div>
+                                <div> <a class="visa" href="https://cis.visa.com/ru_TJ" target="_blank"><img
+                                            src="photos/visa-mastercard 1.png" alt=""></a></div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="footitems">
+                        <dl class="pgbtns">
+                            <dt>© Все права защищены</dt>
+                            <dt style="margin-top: 6px;" class="modelbtn">Политика конфиденциальности</dt>
+                            <dt style="margin-top: 6px;" class="modelbtn">Публичная оферта</dt>
+                        </dl>
+
+                        <dl class="pgbtns2">
+                            <dt style="margin-top: 6px;"><a class="modelbtn" href="">Пальто</a></dt>
+                            <dt style="margin-top: 6px;"><a class="modelbtn" href="">Свитшоты</a></dt>
+                            <dt style="margin-top: 6px;"><a class="modelbtn" href="">Кардиганы</a></dt>
+                            <dt style="margin-top: 6px;"><a class="modelbtn" href="">Толстовки</a></dt>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+    <script src="slider.js"></script>
+</body>
+
+</html>

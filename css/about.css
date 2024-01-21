@@ -1,0 +1,106 @@
+*{
+    font-family: 'Raleway';
+}
+
+.aboutWoman{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.magicWoman{
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+    
+.brandInfo{
+    width: 542px;
+    height: 240px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 25px;
+    line-height: 1.45;
+    letter-spacing: 0.025em;
+    font-size: 17px;
+    margin-left: 100px;
+
+}
+
+.magicInfo{
+    width: 542px;
+    height: 240px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 25px;
+    line-height: 1.45;
+    letter-spacing: 0.025em;
+    font-size: 17px;
+    margin-right: 100px;
+}
+
+
+.wmimg{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    float: right;
+    margin-left: 650px;
+}
+
+.info{
+    position: absolute;
+    float: left;
+}
+
+.buttondt1 {
+    display: flex;
+    align-items: center;
+    padding: 24px 50px;
+    width: 154px;
+    background: #6E9C9F;
+    margin: 0;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 400;
+    border: 1px solid #6E9C9F;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.buttondt1:hover {
+    background-color: #ffffff;
+    color: #6E9C9F;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.sdbtn1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+
+.sdbtnCon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1350px) {
+
+    .brandInfo{
+        margin-left: 30px;
+    }
+    .magicInfo{
+        margin-right: 30px;
+    }
+}   
